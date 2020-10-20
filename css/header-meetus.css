@@ -1,0 +1,60 @@
+.navbar-brand img {
+    height: 100px;
+    width: 120px;
+}
+
+header {
+    background-image: linear-gradient(rgba(10, 24, 34, 0.363), rgba(0, 0, 0, 0.377)), url(/src/img/gallery/isep_img_banner4.jpg);
+    height: 25vh;
+    background-size: 100% 36%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:link,
+.navbar .navbar-nav .nav-item .nav-link:visited {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.text-navitem {
+    font-weight: bold;
+}
+
+.text-navitem-active {
+    border-bottom: 3px solid #066ecf;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover,
+.navbar .navbar-nav .nav-item .nav-link:active {
+    color: #066ecf;
+    font-weight: bold;
+    margin-right: 20px;
+    border-bottom: 3px solid #066ecf;
+    transition: border-bottom 0.2s;
+}
+
+.title-better-view {
+    color: #323fb4;
+    border-bottom: 5px solid #030d6a;
+}
+
+.title-class {
+    margin-top: 12%;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    font-weight: bold;
+    position: absolute;
+    left: 34%;
+}
+
+.image_position {
+    position: absolute;
+    float: left;
+    margin-left: 44%;
+    margin-top: -3%;
+}
+
+.dropdown-item {
+    margin-bottom: 2px;
+}
