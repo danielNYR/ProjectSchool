@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.377)), url(/src/img/gallery/bg_educativo2.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
